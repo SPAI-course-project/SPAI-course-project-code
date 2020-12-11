@@ -10,8 +10,9 @@ Insert brief description to run the code.
 ------------
 
 Members of the group:
-- student1
-- student2
-- student3
-- student4
-- student5
+- Dries Ceuleers
+- Simon De Beus
+- Thibault De Cock
+- Victor Letens
+- Thai Duong Truong
+- Jiayi Wang

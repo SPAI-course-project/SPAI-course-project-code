@@ -1,0 +1,10 @@
+*********************************************
+Instructions aggregator code
+*********************************************
+
+Information regarding running the code of the aggregator :
+
+- Open visual studio, click debug in the top tool bar and follow the directions of the command prompt
+- The application will write files to the Audio Files folder which you can then listen to
+- All cpp files have comments regarding future implementations and comments for every method, use them as documentation for the provided code
+- If interested to view diffs and git history as well as cutting edge updates, reach out to request access to a separate github repo

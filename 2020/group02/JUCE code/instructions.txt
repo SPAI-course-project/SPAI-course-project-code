@@ -1,0 +1,9 @@
+*************************************
+Instructions Juce code
+*************************************
+
+The 'Source' folder contains all source files used in the juce projects. 
+To simplify running the actual compiled code, we just included the executable in this folder. 
+Should you want to build the source code, the best way would be to add them manually to a project within the projucer IDE, which will generate the VS project.
+We also made some minor changes to the juce modules for aggregation functionality, these files are included in the 'module_modifications' folder.
+

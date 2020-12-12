@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="n32kZU" name="FUSION_CENTRE" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              headerPath="$(SolutionDir)libs\libaggregator\lib\ffmpeg&#10;$(SolutionDir)libs\libaggregator\lib\ffmpeg\libavutil&#10;$(SolutionDir)libs\libaggregator\lib\ffmpeg\libswresample&#10;$(SolutionDir)libs\libaggregator\lib\AudioFile-master&#10;$(SolutionDir)libs\libaggregator\lib\plog-master\include">
+  <MAINGROUP id="Qaht6M" name="FUSION_CENTRE">
+    <GROUP id="{1BEA1D8D-DE70-ECBE-6E6B-4E722537200C}" name="Source">
+      <FILE id="h6CEaQ" name="compression.cpp" compile="1" resource="0" file="Source/compression.cpp"/>
+      <FILE id="JUZ53s" name="compression.h" compile="0" resource="0" file="Source/compression.h"/>
+      <FILE id="wOFyqg" name="asio4allIcon.png" compile="0" resource="1"
+            file="Source/asio4allIcon.png"/>
+      <FILE id="wQBSbI" name="ClientUdp.cpp" compile="1" resource="0" file="Source/ClientUdp.cpp"/>
+      <FILE id="DCvXYk" name="ClientUdp.h" compile="0" resource="0" file="Source/ClientUdp.h"/>
+      <FILE id="JUn8ch" name="TimeAligner.cpp" compile="1" resource="0" file="Source/TimeAligner.cpp"/>
+      <FILE id="lwqPf8" name="TimeAligner.h" compile="0" resource="0" file="Source/TimeAligner.h"/>
+      <FILE id="L00Ur9" name="bufferSwitchCallback.cpp" compile="1" resource="0"
+            file="Source/bufferSwitchCallback.cpp"/>
+      <FILE id="MoAcDp" name="bufferSwitchCallback.h" compile="0" resource="0"
+            file="Source/bufferSwitchCallback.h"/>
+      <FILE id="WHrE13" name="aggregator_config.h" compile="0" resource="0"
+            file="Source/aggregator_config.h"/>
+      <FILE id="cTuLzk" name="asiosys.h" compile="0" resource="0" file="Source/asiosys.h"/>
+      <FILE id="pFsAXD" name="DoubleCircularBuffer.cpp" compile="1" resource="0"
+            file="Source/DoubleCircularBuffer.cpp"/>
+      <FILE id="ye7hVY" name="DoubleCircularBuffer.h" compile="0" resource="0"
+            file="Source/DoubleCircularBuffer.h"/>
+      <FILE id="MtKOF8" name="Element.cpp" compile="1" resource="0" file="Source/Element.cpp"/>
+      <FILE id="Ee7mgR" name="Element.h" compile="0" resource="0" file="Source/Element.h"/>
+      <FILE id="ih0jIq" name="IDevice.cpp" compile="1" resource="0" file="Source/IDevice.cpp"/>
+      <FILE id="ilWG7L" name="IDevice.h" compile="0" resource="0" file="Source/IDevice.h"/>
+      <FILE id="qepf2X" name="ActiveInputDevice.cpp" compile="1" resource="0"
+            file="Source/ActiveInputDevice.cpp"/>
+      <FILE id="kfThMX" name="ActiveInputDevice.h" compile="0" resource="0"
+            file="Source/ActiveInputDevice.h"/>
+      <FILE id="yGj3Y2" name="AggregateDeviceManager.cpp" compile="1" resource="0"
+            file="Source/AggregateDeviceManager.cpp"/>
+      <FILE id="QZn2EF" name="AggregateDeviceManager.h" compile="0" resource="0"
+            file="Source/AggregateDeviceManager.h"/>
+      <FILE id="Il58gZ" name="asio.h" compile="0" resource="0" file="Source/asio.h"/>
+      <FILE id="T9rmsd" name="asiodrvr.cpp" compile="1" resource="0" file="Source/asiodrvr.cpp"/>
+      <FILE id="Xx4MyT" name="asiodrvr.h" compile="0" resource="0" file="Source/asiodrvr.h"/>
+      <FILE id="HIlfbr" name="libdsp.h" compile="0" resource="0" file="Source/libdsp.h"/>
+      <FILE id="IamVGS" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="vXFkIM" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="tMEccs" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019" bigIcon="wOFyqg">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="FUSION_CENTRE" winArchitecture="Win32"
+                       libraryPath="&#10;$(SolutionDir)libs\libaggregator\lib\ffmpeg&#10;$(SolutionDir)libs\libaggregator\lib\ffmpeg\libavutil&#10;$(SolutionDir)libs\libaggregator\lib\ffmpeg\libswresample&#10;$(SolutionDir)libs\libaggregator\lib\AudioFile-master&#10;$(SolutionDir)libs\libaggregator\lib\plog-master\include&#10;$(SolutionDir)libs\libDSP"
+                       headerPath="&#10;$(SolutionDir)libs\libaggregator\lib\ffmpeg&#10;$(SolutionDir)libs\libaggregator\lib\ffmpeg\libavutil&#10;$(SolutionDir)libs\libaggregator\lib\ffmpeg\libswresample&#10;$(SolutionDir)libs\libaggregator\lib\AudioFile-master&#10;$(SolutionDir)libs\libaggregator\lib\plog-master\include&#10;$(SolutionDir)libs\libDSP"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="FUSION_CENTRE"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>

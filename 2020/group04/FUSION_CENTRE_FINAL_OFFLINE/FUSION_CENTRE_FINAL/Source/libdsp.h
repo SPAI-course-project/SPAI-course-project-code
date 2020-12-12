@@ -1,0 +1,25 @@
+#pragma once
+#include "pch.h"
+#include "dsp.h"
+#include "Access.h"
+#include "Allocator.h"
+#include "arr.h"
+#include "Config.h"
+#include "Constants.h"
+#include "Containers.h"
+#include "Conversion.h"
+#include "DFT.h"
+#include "Domain.h"
+#include "FFT.h"
+#include "fftpack++.h"
+#include "framework.h"
+#include "mem.h"
+#include "Node.h"
+
+#include "pstdint.h"
+#include "scl.h"
+#include "Sync.h"
+#include "tbl.h"
+#include "Types.h"
+
+

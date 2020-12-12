@@ -1,0 +1,10 @@
+﻿  Main.cpp
+  MainComponent.cpp
+  include_juce_core.cpp
+  include_juce_data_structures.cpp
+  include_juce_events.cpp
+  include_juce_graphics.cpp
+  include_juce_gui_basics.cpp
+D:\visual_studio_files\FUSION_CENTRE\FUSION_CENTRE\Source\Main.cpp(24,42): warning C4100: 'commandLine': unreferenced formal parameter
+D:\visual_studio_files\FUSION_CENTRE\FUSION_CENTRE\Source\Main.cpp(46,54): warning C4100: 'commandLine': unreferenced formal parameter
+  FUSION_CENTRE_App.vcxproj -> D:\visual_studio_files\FUSION_CENTRE\FUSION_CENTRE\Builds\VisualStudio2019\x64\Debug\App\FUSION_CENTRE.exe

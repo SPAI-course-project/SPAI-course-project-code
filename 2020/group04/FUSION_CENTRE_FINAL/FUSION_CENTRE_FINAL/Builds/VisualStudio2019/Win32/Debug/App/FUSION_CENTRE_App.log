@@ -1,0 +1,63 @@
+﻿  bufferSwitchCallback.cpp
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Builds\VisualStudio2019\libs\libaggregator\lib\ffmpeg\libavutil\common.h(162,27): warning C4244: 'return': conversion from 'int' to 'uint8_t', possible loss of data
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Builds\VisualStudio2019\libs\libaggregator\lib\ffmpeg\libavutil\common.h(173,34): warning C4244: 'return': conversion from 'int' to 'int8_t', possible loss of data
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Builds\VisualStudio2019\libs\libaggregator\lib\ffmpeg\libavutil\common.h(184,29): warning C4244: 'return': conversion from 'int' to 'uint16_t', possible loss of data
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Builds\VisualStudio2019\libs\libaggregator\lib\ffmpeg\libavutil\common.h(195,38): warning C4244: 'return': conversion from 'int' to 'int16_t', possible loss of data
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Builds\VisualStudio2019\libs\libDSP\Conversion.h(231,32): warning C4244: 'return': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Builds\VisualStudio2019\libs\libDSP\DFT.h(283,37): warning C4275: non dll-interface class 'gam::DFT' used as base for dll-interface class 'gam::STFT'
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Builds\VisualStudio2019\libs\libDSP\DFT.h(178): message : see declaration of 'gam::DFT'
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Builds\VisualStudio2019\libs\libDSP\DFT.h(283): message : see declaration of 'gam::STFT'
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Builds\VisualStudio2019\libs\libDSP\DFT.h(356,30): warning C4251: 'gam::STFT::mSlide': class 'gam::SlidingWindow<float>' needs to have dll-interface to be used by clients of class 'gam::STFT'
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Builds\VisualStudio2019\libs\libDSP\DFT.h(356): message : see declaration of 'gam::SlidingWindow<float>'
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(65,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(73,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(74,215): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(74,193): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(74,171): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(74,140): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(80,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(85,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(89,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(90,231): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(90,209): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(90,187): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(90,156): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(98,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(252,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(258,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(264,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(182): warning C4701: potentially uninitialized local variable 'pDSPInputSample' used
+C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Source\bufferSwitchCallback.cpp(182): warning C4703: potentially uninitialized local pointer variable 'pDSPInputSample' used
+  FUSION_CENTRE_App.vcxproj -> C:\Users\dries\Documents\Universiteit\Master\R&D_SPAI\Project\FUSION_CENTRE_v1112_10h38\FUSION_CENTRE\FUSION_CENTRE\Builds\VisualStudio2019\Win32\Debug\App\FUSION_CENTRE.exe

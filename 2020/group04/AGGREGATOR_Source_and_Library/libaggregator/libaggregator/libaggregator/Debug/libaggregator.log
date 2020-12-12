@@ -1,0 +1,9 @@
+﻿  asiodrvr.cpp
+D:\visual_studio_files\AGGREGATOR_V2\libaggregator\libaggregator\libaggregator\ActiveInputDevice.h(32,54): warning C4251: 'ActiveInputDevice::m_bufferVector': class 'std::vector<DoubleCircularBuffer *,std::allocator<DoubleCircularBuffer *>>' needs to have dll-interface to be used by clients of class 'ActiveInputDevice'
+D:\visual_studio_files\AGGREGATOR_V2\libaggregator\libaggregator\libaggregator\IDevice.h(37): message : see declaration of 'std::vector<DoubleCircularBuffer *,std::allocator<DoubleCircularBuffer *>>'
+D:\visual_studio_files\AGGREGATOR_V2\libaggregator\libaggregator\libaggregator\AggregateDeviceManager.h(31,46): warning C4251: 'AggregateDeviceManager::m_aggregateInputDevice': class 'std::vector<IDevice *,std::allocator<IDevice *>>' needs to have dll-interface to be used by clients of class 'AggregateDeviceManager'
+D:\visual_studio_files\AGGREGATOR_V2\libaggregator\libaggregator\libaggregator\AggregateDeviceManager.h(31): message : see declaration of 'std::vector<IDevice *,std::allocator<IDevice *>>'
+D:\visual_studio_files\AGGREGATOR_V2\libaggregator\libaggregator\libaggregator\AggregateDeviceManager.h(36,47): warning C4251: 'AggregateDeviceManager::m_aggregateOutputDevice': class 'std::vector<IDevice *,std::allocator<IDevice *>>' needs to have dll-interface to be used by clients of class 'AggregateDeviceManager'
+D:\visual_studio_files\AGGREGATOR_V2\libaggregator\libaggregator\libaggregator\AggregateDeviceManager.h(31): message : see declaration of 'std::vector<IDevice *,std::allocator<IDevice *>>'
+D:\visual_studio_files\AGGREGATOR_V2\libaggregator\libaggregator\libaggregator\asiodrvr.cpp(209,8): warning C4101: 'lastError': unreferenced local variable
+  libaggregator.vcxproj -> D:\visual_studio_files\AGGREGATOR_V2\libaggregator\libaggregator\Debug\libaggregator.dll

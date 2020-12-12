@@ -1,0 +1,80 @@
+﻿2020-12-11 16:28:42.498 DEBUG [13732] [MainComponent::init_asioDriver@180] just added Microfoon (2- Realtek(R) Audio)to the AllDevicelist
+2020-12-11 16:28:42.502 DEBUG [13732] [MainComponent::init_asioDriver@180] just added Headset (Bose AE2 SoundLink Hands-Free AG Audio)to the AllDevicelist
+2020-12-11 16:28:44.495 DEBUG [13732] [MainComponent::comboboxHandler@49] For device 1, we are using Microfoon (2- Realtek(R) Audio)it has a combobox id of1
+2020-12-11 16:28:45.884 DEBUG [13732] [MainComponent::comboboxHandler@59] For device 2, we are using Headset (Bose AE2 SoundLink Hands-Free AG Audio)it has a combobox id of2
+2020-12-11 16:28:47.371 DEBUG [13732] [setAudioEffect@278] audioeffect: 3
+2020-12-11 16:28:48.038 DEBUG [13732] [setPitch@284] new value for device 0 is 0.55
+2020-12-11 16:28:48.046 DEBUG [13732] [setPitch@284] new value for device 0 is 0.6
+2020-12-11 16:28:48.054 DEBUG [13732] [setPitch@284] new value for device 0 is 0.65
+2020-12-11 16:28:48.062 DEBUG [13732] [setPitch@284] new value for device 0 is 0.75
+2020-12-11 16:28:48.070 DEBUG [13732] [setPitch@284] new value for device 0 is 0.8
+2020-12-11 16:28:48.078 DEBUG [13732] [setPitch@284] new value for device 0 is 0.85
+2020-12-11 16:28:48.086 DEBUG [13732] [setPitch@284] new value for device 0 is 0.9
+2020-12-11 16:28:48.102 DEBUG [13732] [setPitch@284] new value for device 0 is 0.95
+2020-12-11 16:28:48.108 DEBUG [13732] [setPitch@284] new value for device 0 is 1
+2020-12-11 16:28:48.116 DEBUG [13732] [setPitch@284] new value for device 0 is 1.05
+2020-12-11 16:28:48.124 DEBUG [13732] [setPitch@284] new value for device 0 is 1.1
+2020-12-11 16:28:48.132 DEBUG [13732] [setPitch@284] new value for device 0 is 1.15
+2020-12-11 16:28:48.140 DEBUG [13732] [setPitch@284] new value for device 0 is 1.25
+2020-12-11 16:28:48.156 DEBUG [13732] [setPitch@284] new value for device 0 is 1.35
+2020-12-11 16:28:48.732 DEBUG [13732] [setPitch@284] new value for device 1 is 0.65
+2020-12-11 16:28:48.756 DEBUG [13732] [setPitch@284] new value for device 1 is 0.7
+2020-12-11 16:28:48.780 DEBUG [13732] [setPitch@284] new value for device 1 is 0.75
+2020-12-11 16:28:48.788 DEBUG [13732] [setPitch@284] new value for device 1 is 0.8
+2020-12-11 16:28:48.804 DEBUG [13732] [setPitch@284] new value for device 1 is 0.85
+2020-12-11 16:28:48.820 DEBUG [13732] [setPitch@284] new value for device 1 is 0.95
+2020-12-11 16:28:48.828 DEBUG [13732] [setPitch@284] new value for device 1 is 1
+2020-12-11 16:28:52.989 DEBUG [13732] [MainComponent::start_asioDriver@185] Lets start the ASIO driver for this many devices: 2
+2020-12-11 16:28:52.989 DEBUG [13732] [ActiveInputDevice::setActiveDevice@291] ActiveInputDevice: registered {0.0.1.00000000}.{07d10047-c188-4366-8e11-1cf899b64339} as an active device.
+2020-12-11 16:28:52.999 DEBUG [13732] [AggregateDeviceManager::addInputDeviceById@231] AggregatorDeviceManager: successfully added {0.0.1.00000000}.{07d10047-c188-4366-8e11-1cf899b64339} to aggregate device!
+2020-12-11 16:28:52.999 DEBUG [13732] [ActiveInputDevice::setActiveDevice@291] ActiveInputDevice: registered {0.0.1.00000000}.{8e00296d-384e-4b79-87f2-3f586d24cce3} as an active device.
+2020-12-11 16:28:53.002 DEBUG [13732] [AggregateDeviceManager::addInputDeviceById@231] AggregatorDeviceManager: successfully added {0.0.1.00000000}.{8e00296d-384e-4b79-87f2-3f586d24cce3} to aggregate device!
+2020-12-11 16:28:53.003 DEBUG [13732] [MainComponent::start_asioDriver@187] The DesiredIndices vector has values : 01
+2020-12-11 16:28:53.003 DEBUG [13732] [MainComponent::start_asioDriver@195] The sample rate of ASIO aggregate device is: 48000
+2020-12-11 16:28:53.003 DEBUG [13732] [MainComponent::start_asioDriver@202] The number of input channels are: 3
+2020-12-11 16:28:53.016 DEBUG [13732] [ClientUdp::setupClient@38] Client UDP: Starting client!
+2020-12-11 16:28:53.063 DEBUG [13732] [ActiveInputDevice::initStream@399] This is the buffer size: 1024
+2020-12-11 16:28:53.085 DEBUG [13732] [ActiveInputDevice::initStream@399] This is the buffer size: 336
+2020-12-11 16:28:54.642 DEBUG [13732] [MainComponent::buttonHandler@121] indices of the devices used:0 en 1
+2020-12-11 16:28:54.644 DEBUG [1808] [sideReaderThread@159] sideWriter created.
+2020-12-11 16:28:54.644 DEBUG [21524] [mainReaderThread@117] mainWriter created.
+2020-12-11 16:29:09.690 DEBUG [13732] [AsioDriver::stop@259] AsioDriver: Cleaning up synchronization primitives.
+2020-12-11 16:29:09.730 DEBUG [13732] [AggregateDeviceManager::removeInputDeviceById@261] AggregateDeviceManager: successfully removed {0.0.1.00000000}.{8e00296d-384e-4b79-87f2-3f586d24cce3} from aggregate device.
+2020-12-11 16:29:09.751 DEBUG [13732] [AggregateDeviceManager::removeInputDeviceById@261] AggregateDeviceManager: successfully removed {0.0.1.00000000}.{07d10047-c188-4366-8e11-1cf899b64339} from aggregate device.
+2020-12-11 16:29:09.752 DEBUG [13732] [MainComponent::buttonHandler@113] stopping the driver...
+2020-12-11 16:30:28.321 DEBUG [13732] [MainComponent::start_asioDriver@185] Lets start the ASIO driver for this many devices: 2
+2020-12-11 16:30:28.322 DEBUG [13732] [ActiveInputDevice::setActiveDevice@291] ActiveInputDevice: registered {0.0.1.00000000}.{07d10047-c188-4366-8e11-1cf899b64339} as an active device.
+2020-12-11 16:30:28.328 DEBUG [13732] [AggregateDeviceManager::addInputDeviceById@231] AggregatorDeviceManager: successfully added {0.0.1.00000000}.{07d10047-c188-4366-8e11-1cf899b64339} to aggregate device!
+2020-12-11 16:30:28.328 DEBUG [13732] [ActiveInputDevice::setActiveDevice@291] ActiveInputDevice: registered {0.0.1.00000000}.{8e00296d-384e-4b79-87f2-3f586d24cce3} as an active device.
+2020-12-11 16:30:28.331 DEBUG [13732] [AggregateDeviceManager::addInputDeviceById@231] AggregatorDeviceManager: successfully added {0.0.1.00000000}.{8e00296d-384e-4b79-87f2-3f586d24cce3} to aggregate device!
+2020-12-11 16:30:28.331 DEBUG [13732] [MainComponent::start_asioDriver@187] The DesiredIndices vector has values : 01
+2020-12-11 16:30:28.331 DEBUG [13732] [MainComponent::start_asioDriver@195] The sample rate of ASIO aggregate device is: 48000
+2020-12-11 16:30:28.331 DEBUG [13732] [MainComponent::start_asioDriver@202] The number of input channels are: 3
+2020-12-11 16:30:28.332 DEBUG [13732] [ClientUdp::setupClient@38] Client UDP: Starting client!
+2020-12-11 16:30:28.350 DEBUG [13732] [ActiveInputDevice::initStream@399] This is the buffer size: 1024
+2020-12-11 16:30:28.373 DEBUG [13732] [ActiveInputDevice::initStream@399] This is the buffer size: 336
+2020-12-11 16:30:29.405 DEBUG [13732] [MainComponent::buttonHandler@121] indices of the devices used:0 en 1
+2020-12-11 16:30:29.405 DEBUG [17048] [mainReaderThread@117] mainWriter created.
+2020-12-11 16:30:29.405 DEBUG [17996] [sideReaderThread@159] sideWriter created.
+2020-12-11 16:30:42.028 DEBUG [13732] [AsioDriver::stop@259] AsioDriver: Cleaning up synchronization primitives.
+2020-12-11 16:30:42.071 DEBUG [13732] [AggregateDeviceManager::removeInputDeviceById@261] AggregateDeviceManager: successfully removed {0.0.1.00000000}.{8e00296d-384e-4b79-87f2-3f586d24cce3} from aggregate device.
+2020-12-11 16:30:42.094 DEBUG [13732] [AggregateDeviceManager::removeInputDeviceById@261] AggregateDeviceManager: successfully removed {0.0.1.00000000}.{07d10047-c188-4366-8e11-1cf899b64339} from aggregate device.
+2020-12-11 16:30:42.095 DEBUG [13732] [MainComponent::buttonHandler@113] stopping the driver...
+2020-12-11 16:30:55.473 DEBUG [13732] [MainComponent::start_asioDriver@185] Lets start the ASIO driver for this many devices: 2
+2020-12-11 16:30:55.474 DEBUG [13732] [ActiveInputDevice::setActiveDevice@291] ActiveInputDevice: registered {0.0.1.00000000}.{07d10047-c188-4366-8e11-1cf899b64339} as an active device.
+2020-12-11 16:30:55.480 DEBUG [13732] [AggregateDeviceManager::addInputDeviceById@231] AggregatorDeviceManager: successfully added {0.0.1.00000000}.{07d10047-c188-4366-8e11-1cf899b64339} to aggregate device!
+2020-12-11 16:30:55.480 DEBUG [13732] [ActiveInputDevice::setActiveDevice@291] ActiveInputDevice: registered {0.0.1.00000000}.{8e00296d-384e-4b79-87f2-3f586d24cce3} as an active device.
+2020-12-11 16:30:55.485 DEBUG [13732] [AggregateDeviceManager::addInputDeviceById@231] AggregatorDeviceManager: successfully added {0.0.1.00000000}.{8e00296d-384e-4b79-87f2-3f586d24cce3} to aggregate device!
+2020-12-11 16:30:55.485 DEBUG [13732] [MainComponent::start_asioDriver@187] The DesiredIndices vector has values : 01
+2020-12-11 16:30:55.485 DEBUG [13732] [MainComponent::start_asioDriver@195] The sample rate of ASIO aggregate device is: 48000
+2020-12-11 16:30:55.485 DEBUG [13732] [MainComponent::start_asioDriver@202] The number of input channels are: 3
+2020-12-11 16:30:55.487 DEBUG [13732] [ClientUdp::setupClient@38] Client UDP: Starting client!
+2020-12-11 16:30:55.510 DEBUG [13732] [ActiveInputDevice::initStream@399] This is the buffer size: 1024
+2020-12-11 16:30:55.531 DEBUG [13732] [ActiveInputDevice::initStream@399] This is the buffer size: 336
+2020-12-11 16:30:56.150 DEBUG [13732] [MainComponent::buttonHandler@121] indices of the devices used:0 en 1
+2020-12-11 16:30:56.150 DEBUG [9608] [mainReaderThread@117] mainWriter created.
+2020-12-11 16:30:56.150 DEBUG [19256] [sideReaderThread@159] sideWriter created.
+2020-12-11 16:31:11.391 DEBUG [13732] [AsioDriver::stop@259] AsioDriver: Cleaning up synchronization primitives.
+2020-12-11 16:31:11.430 DEBUG [13732] [AggregateDeviceManager::removeInputDeviceById@261] AggregateDeviceManager: successfully removed {0.0.1.00000000}.{8e00296d-384e-4b79-87f2-3f586d24cce3} from aggregate device.
+2020-12-11 16:31:11.450 DEBUG [13732] [AggregateDeviceManager::removeInputDeviceById@261] AggregateDeviceManager: successfully removed {0.0.1.00000000}.{07d10047-c188-4366-8e11-1cf899b64339} from aggregate device.
+2020-12-11 16:31:11.451 DEBUG [13732] [MainComponent::buttonHandler@113] stopping the driver...

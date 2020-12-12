@@ -1,0 +1,1 @@
+config:x86:x86_32:generic:win64:Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29112 for x86:--prefix=/d/ffmpeg --target-os=win64 --arch=x86_64 --toolchain=msvc --enable-shared

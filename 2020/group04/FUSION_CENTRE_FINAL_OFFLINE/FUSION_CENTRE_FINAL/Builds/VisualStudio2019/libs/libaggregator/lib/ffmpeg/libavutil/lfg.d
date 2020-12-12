@@ -1,0 +1,13 @@
+libavutil/lfg.o: d:/visual_studio_files/ffmpeg/libavutil/lfg.h
+libavutil/lfg.o: d:/visual_studio_files/ffmpeg/libavutil/crc.h
+libavutil/lfg.o: d:/visual_studio_files/ffmpeg/libavutil/attributes.h
+libavutil/lfg.o: d:/visual_studio_files/ffmpeg/libavutil/version.h
+libavutil/lfg.o: d:/visual_studio_files/ffmpeg/libavutil/macros.h
+libavutil/lfg.o: d:/visual_studio_files/ffmpeg/libavutil/md5.h
+libavutil/lfg.o: d:/visual_studio_files/ffmpeg/libavutil/error.h
+libavutil/lfg.o: d:/visual_studio_files/ffmpeg/libavutil/intreadwrite.h
+libavutil/lfg.o: d:/visual_studio_files/ffmpeg/libavutil/avconfig.h
+libavutil/lfg.o: d:/visual_studio_files/ffmpeg/libavutil/bswap.h
+libavutil/lfg.o: d:/visual_studio_files/ffmpeg/config.h
+libavutil/lfg.o: d:/visual_studio_files/ffmpeg/libavutil/x86/bswap.h
+libavutil/lfg.o: d:/visual_studio_files/ffmpeg/libavutil/x86/intreadwrite.h

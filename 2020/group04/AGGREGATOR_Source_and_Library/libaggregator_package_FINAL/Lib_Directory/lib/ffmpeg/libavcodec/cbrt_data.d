@@ -1,0 +1,9 @@
+libavcodec/cbrt_data.o: d:/visual_studio_files/ffmpeg/config.h
+libavcodec/cbrt_data.o: d:/visual_studio_files/ffmpeg/libavcodec/cbrt_data.h
+libavcodec/cbrt_data.o: d:/visual_studio_files/ffmpeg/libavutil/libm.h
+libavcodec/cbrt_data.o: d:/visual_studio_files/ffmpeg/libavutil/attributes.h
+libavcodec/cbrt_data.o: d:/visual_studio_files/ffmpeg/libavutil/intfloat.h
+libavcodec/cbrt_data.o: d:/visual_studio_files/ffmpeg/libavutil/mathematics.h
+libavcodec/cbrt_data.o: d:/visual_studio_files/ffmpeg/libavutil/rational.h
+libavcodec/cbrt_data.o: d:/visual_studio_files/ffmpeg/libavcodec/cbrt_tablegen.h
+libavcodec/cbrt_data.o: d:/visual_studio_files/ffmpeg/libavcodec/aac_defines.h

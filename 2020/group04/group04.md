@@ -6,7 +6,6 @@ This is the folder including the code and audio files of group04 from the 2020 S
 
 Insert brief description to run the code.
 
-Some files are too big we will change them and upload them tommorow
 
 
 ------------
